@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "compile:dev": "rescript build -w ",
+    "bundle:dev": "esbuild lib/es6/src/Index.bs.js --bundle --outfile=public/index.js --servedir=public"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.9",
+    "rescript": "^10.0.0-dev.1"
+  }
+}
